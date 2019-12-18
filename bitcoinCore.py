@@ -1,6 +1,5 @@
 from bitcoin.rpc import RawProxy
 import hashlib
-import binascii
 
 def transactionOrBlock(choice):
     if choice == "1":
